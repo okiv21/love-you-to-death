@@ -4,13 +4,13 @@ A story-driven, Lagos-inspired district prototype with a market, offices, moving
 
 ## Demo 0.5 — November 20, 2026
 
-The public demo is being published to Vercel from [GitHub](https://github.com/okiv21/love-you-to-death). GitHub, Vercel and Supabase connections verified; no Supabase database is required or changed.
+**[Play the live demo](https://love-you-to-death.vercel.app)** — deployed to Vercel from [GitHub](https://github.com/okiv21/love-you-to-death). GitHub, Vercel and Supabase connections verified; no Supabase database is required or changed.
 
 New: opening envelope and romantic letter, a persistent objective arrow with distance, red player/objective map markers, an original synthesized tension soundtrack, six additional residents (23 NPCs total), portrait/landscape touch layouts, and a keepsake gallery that unlocks one reward per takedown. Reward counts persist on the same browser. Personal photos have not been supplied: the gallery explicitly labels missing photos instead of showing substitutes.
 
 Performance: 689 scenery render components are statically batched; characters and traffic are dynamically batched, shadows disabled, mobile pixel ratio capped at 1, and mobile rendering targets 30 fps. Paused screens stop requesting new scene renders. The local market measurement after character batching averaged 243 draw calls over 60 rendered frames. This is not a guarantee of real-phone frame rate.
 
-Validation: 35 gameplay regression checks pass; portrait 390×844 and landscape 844×390 layouts inspected; no browser console errors observed. A physical-phone playtest and human listening check remain outstanding.
+Validation: 35 gameplay and 15 gift/navigation regression checks pass; portrait 390×844 and landscape 844×390 layouts inspected; no browser console errors observed. A physical-phone playtest and human listening check remain outstanding.
 
 ![Gift envelope](artifacts/demo-envelope.jpg)
 *Portrait opening: a warm paper envelope and wax-heart seal introduce the personal letter.*
@@ -19,11 +19,13 @@ Validation: 35 gameplay regression checks pass; portrait 390×844 and landscape 
 *Portrait controls, objective direction arrow, red map markers and keepsake access. Captured during this demo's UI validation.*
 
 ![Landscape demo](artifacts/demo-landscape.jpg)
-*Landscape phone playtest; movement controls remain visible. Subsequent spacing adjustments prevent objective/arrow overlap.*
+*Landscape phone playtest; movement controls remain visible. Objective and arrow panels have separate space.*
 
 To add personal photo rewards, put JPEG/PNG/WebP files in `dist/rewards/` and list them in `dist/rewards/photos.json`, for example `[{"src":"/rewards/photo-01.jpg","caption":"Thinking of you."}]`. Photos included in this public demo are accessible to visitors; the gallery unlock is a game mechanic, not access control.
 
 Build with `npm run build`; run `npm run check` for syntax validation. No npm runtime dependencies are needed. The Node and Python build tools concatenate the same five source modules. The published root redirects to the current 3D game, not the older 2D prototype.
+
+Release evidence: [50 browser checks](artifacts/demo-qa.json), [published-file verification](artifacts/demo-public-assets.json). Public assets match the local build byte-for-byte and require no login. Automated browser navigation to the public domain timed out, so an end-to-end public browser playtest remains unverified. Production runtime commit: `22e675a`; deployment ID: `dpl_BKYDCXPLffKR4T8qJMUnYEWxxjU4`. No backend runtime, database or paid resources added. PlayCanvas Editor was disconnected during release; its last synchronized copy remains 0.4.
 
 ## Play
 Open **http://localhost:4173/sandbox/** while the local preview is running. To start it yourself:

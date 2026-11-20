@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-20",
+  "deployment": "https://love-you-to-death.vercel.app",
+  "deploymentId": "dpl_BKYDCXPLffKR4T8qJMUnYEWxxjU4",
+  "runtimeCommit": "22e675a7c525eaecf2edd8529047cd78c64a7537",
+  "gameplay": {
+    "passed": 35,
+    "results": [
+      {
+        "name": "district expanded beyond old market",
+        "pass": true
+      },
+      {
+        "name": "market story conversation opens",
+        "pass": true
+      },
+      {
+        "name": "market lead advances to office",
+        "pass": true
+      },
+      {
+        "name": "office record marks cemetery",
+        "pass": true
+      },
+      {
+        "name": "cemetery parcel advances story",
+        "pass": true
+      },
+      {
+        "name": "story has reachable ending",
+        "pass": true
+      },
+      {
+        "name": "partial excavation lowers soil",
+        "pass": true
+      },
+      {
+        "name": "release preserves dig progress",
+        "pass": true
+      },
+      {
+        "name": "excavation opens grave",
+        "pass": true
+      },
+      {
+        "name": "climb enters grave",
+        "pass": true
+      },
+      {
+        "name": "cannot refill while inside",
+        "pass": true
+      },
+      {
+        "name": "climb returns safely to edge",
+        "pass": true
+      },
+      {
+        "name": "empty grave can be refilled",
+        "pass": true
+      },
+      {
+        "name": "body pickup",
+        "pass": true
+      },
+      {
+        "name": "cancel lowering restores body",
+        "pass": true
+      },
+      {
+        "name": "lowering leaves body visible in open grave",
+        "pass": true
+      },
+      {
+        "name": "cancel refill leaves body and open soil state",
+        "pass": true
+      },
+      {
+        "name": "refill completes burial",
+        "pass": true
+      },
+      {
+        "name": "exhumation clears occupant and restores one body",
+        "pass": true
+      },
+      {
+        "name": "attack wind-up has no early damage",
+        "pass": true
+      },
+      {
+        "name": "swept blade connects once",
+        "pass": true
+      },
+      {
+        "name": "second strike begins death",
+        "pass": true
+      },
+      {
+        "name": "fall finishes",
+        "pass": true
+      },
+      {
+        "name": "target behind player is not hit",
+        "pass": true
+      },
+      {
+        "name": "out of reach target is not hit",
+        "pass": true
+      },
+      {
+        "name": "hands stay on shovel grip",
+        "pass": true
+      },
+      {
+        "name": "sprint gives catch-up speed",
+        "pass": true
+      },
+      {
+        "name": "player can move during swing",
+        "pass": true
+      },
+      {
+        "name": "market to cemetery route exists",
+        "pass": true
+      },
+      {
+        "name": "map follows player position",
+        "pass": true
+      },
+      {
+        "name": "traffic moves on green",
+        "pass": true
+      },
+      {
+        "name": "traffic queues at red crossing",
+        "pass": true
+      },
+      {
+        "name": "audio context exists after begin input",
+        "pass": true
+      },
+      {
+        "name": "sound event reaches mixer",
+        "pass": true
+      },
+      {
+        "name": "mute silences master",
+        "pass": true
+      }
+    ]
+  },
+  "gift": {
+    "passed": 15,
+    "results": [
+      {
+        "name": "personal envelope is the opening screen",
+        "pass": true
+      },
+      {
+        "name": "romantic letter includes appreciation and care",
+        "pass": true
+      },
+      {
+        "name": "story starts after letter",
+        "pass": true
+      },
+      {
+        "name": "Mama T guidance includes distance and direction",
+        "pass": true
+      },
+      {
+        "name": "direction changes when player passes objective",
+        "pass": true
+      },
+      {
+        "name": "guide follows later story objectives",
+        "pass": true
+      },
+      {
+        "name": "a takedown unlocks one keepsake",
+        "pass": true
+      },
+      {
+        "name": "same defeated character cannot unlock twice",
+        "pass": true
+      },
+      {
+        "name": "gallery pauses play and explains missing photos",
+        "pass": true
+      },
+      {
+        "name": "closing gallery resumes play",
+        "pass": true
+      },
+      {
+        "name": "music scheduler produces notes after user gesture",
+        "pass": true
+      },
+      {
+        "name": "mute silences soundtrack",
+        "pass": true
+      },
+      {
+        "name": "six new residents added",
+        "pass": true
+      },
+      {
+        "name": "scenery is batched",
+        "pass": true
+      },
+      {
+        "name": "no horizontal page overflow",
+        "pass": true
+      }
+    ]
+  },
+  "notes": [
+    "Local browser checks; public browser navigation timed out in both automation browsers.",
+    "Unauthenticated HTTPS returned matching root, launcher, game script, engine and photo manifest.",
+    "Portrait 390x844 and landscape 844x390 inspected. Physical-phone and human listening checks pending.",
+    "PlayCanvas Editor disconnected; compiled source is ready but Editor synchronization pending."
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "index.html",
+    "success": true,
+    "bytes": 354,
+    "matchesLocal": true
+  },
+  {
+    "path": "sandbox/index.html",
+    "success": true,
+    "bytes": 1636,
+    "matchesLocal": true
+  },
+  {
+    "path": "sandbox/midnight-grounds.js",
+    "success": true,
+    "bytes": 74247,
+    "matchesLocal": true
+  },
+  {
+    "path": "vendor/playcanvas-2.7.4.min.js",
+    "success": true,
+    "bytes": 1984390,
+    "matchesLocal": true
+  },
+  {
+    "path": "rewards/photos.json",
+    "success": true,
+    "bytes": 3,
+    "matchesLocal": true
+  }
+]

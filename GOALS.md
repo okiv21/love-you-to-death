@@ -121,7 +121,8 @@ Status reflects implementation, not assumed browser verification.
 - [x] Add six residents across offices and roadside shops.
 - [x] Pass 35 gameplay checks and inspect mobile layouts.
 - [ ] Receive personal photos and populate the gallery.
-- [ ] Push source and publish the tested public Vercel demo.
-- [ ] Verify public URL without account login.
+- [x] Push source and publish the tested public Vercel demo.
+- [x] Verify public URL and all runtime files over unauthenticated HTTPS.
+- [ ] Complete browser navigation on the public domain (automation browsers timed out).
 - [ ] Physical-phone performance, touch and listening playtest.
 - [ ] Synchronize demo additions to the PlayCanvas Editor.
