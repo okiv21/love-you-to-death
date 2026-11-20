@@ -6,7 +6,7 @@ A story-driven, Lagos-inspired district prototype with a market, offices, moving
 
 **[Play the live demo](https://love-you-to-death.vercel.app)** — deployed to Vercel from [GitHub](https://github.com/okiv21/love-you-to-death). GitHub, Vercel and Supabase connections verified; no Supabase database is required or changed.
 
-New: opening envelope and romantic letter, a persistent objective arrow with distance, red player/objective map markers, an original synthesized tension soundtrack, six additional residents (23 NPCs total), portrait/landscape touch layouts, and a keepsake gallery that unlocks one reward per takedown. Reward counts persist on the same browser. Personal photos have not been supplied: the gallery explicitly labels missing photos instead of showing substitutes.
+New: opening envelope and romantic letter, a persistent objective arrow with distance, red player/objective map markers, an original synthesized tension soundtrack, six additional residents (23 NPCs total), portrait/landscape touch layouts, and a keepsake gallery that unlocks one reward per takedown. Reward counts persist on the same browser. Nine supplied keepsakes (eight JPEG photos and one GIF) are included. Each unlocked image has Download photo and Open full size controls. Original files are preserved and loaded lazily.
 
 Performance: 689 scenery render components are statically batched; characters and traffic are dynamically batched, shadows disabled, mobile pixel ratio capped at 1, and mobile rendering targets 30 fps. Paused screens stop requesting new scene renders. The local market measurement after character batching averaged 243 draw calls over 60 rendered frames. This is not a guarantee of real-phone frame rate.
 
@@ -25,7 +25,7 @@ To add personal photo rewards, put JPEG/PNG/WebP files in `dist/rewards/` and li
 
 Build with `npm run build`; run `npm run check` for syntax validation. No npm runtime dependencies are needed. The Node and Python build tools concatenate the same five source modules. The published root redirects to the current 3D game, not the older 2D prototype.
 
-Release evidence: [50 browser checks](artifacts/demo-qa.json), [published-file verification](artifacts/demo-public-assets.json). Public assets match the local build byte-for-byte and require no login. Automated browser navigation to the public domain timed out, so an end-to-end public browser playtest remains unverified. Production runtime commit: `22e675a`; deployment ID: `dpl_BKYDCXPLffKR4T8qJMUnYEWxxjU4`. No backend runtime, database or paid resources added. PlayCanvas Editor was disconnected during release; its last synchronized copy remains 0.4.
+Release evidence: [50 browser checks](artifacts/demo-qa.json), [published-file verification](artifacts/demo-public-assets.json). Public assets match the local build byte-for-byte and require no login. Automated browser navigation to the public domain timed out, so an end-to-end public browser playtest remains unverified. Production runtime commit: `22e675a`; deployment ID: `dpl_BKYDCXPLffKR4T8qJMUnYEWxxjU4`. No backend runtime, database or paid resources added. The latest gift demo and photo-download code have now been synchronized to PlayCanvas script asset 316697723. Editor Launch uses the public reward URLs; the standalone app uses same-origin files.
 
 ## Play
 Open **http://localhost:4173/sandbox/** while the local preview is running. To start it yourself:

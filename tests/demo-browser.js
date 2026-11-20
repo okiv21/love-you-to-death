@@ -12,7 +12,7 @@
  check('direction changes when player passes objective',g.$('arrow').style.transform!==oldAngle);
  const oldChapter=g.chapter;g.chapter=2;g.refreshObjective();g.update(.15);check('guide follows later story objectives',g.$('route-name').textContent==='Cemetery');g.chapter=oldChapter;g.refreshObjective();
  const n=g.npcs.find(n=>n.role==='shopper'),before=g.unlocked;n.hp=1;g.impact(n);check('a takedown unlocks one keepsake',g.unlocked===before+1);g.impact(n);check('same defeated character cannot unlock twice',g.unlocked===before+1);
- g.openGallery();check('gallery pauses play and explains missing photos',g.paused&&!g.giftUI.hidden&&g.giftUI.textContent.includes('Personal photos'));
+ g.openGallery();check('gallery pauses play and offers unlocked photo downloads',g.paused&&!g.giftUI.hidden&&g.giftUI.querySelectorAll('.gift-photo button').length===Math.min(g.unlocked,g.rewardPhotos.length));
  document.querySelector('#gift-back').click();check('closing gallery resumes play',!g.paused&&g.giftUI.hidden);
  g.scheduleMusic();check('music scheduler produces notes after user gesture',g.audio.state==='running'&&g.musicTimer&&g.musicBeat>0);
  g.soundOn=false;g.syncAudio();check('mute silences soundtrack',g.master.gain.value===0);g.soundOn=true;g.syncAudio();

@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "src": "/rewards/keepsake-01.gif",
+    "caption": "A little reminder of me."
+  },
+  {
+    "src": "/rewards/keepsake-02.jpg",
+    "caption": "Missing you, always."
+  },
+  {
+    "src": "/rewards/keepsake-03.jpg",
+    "caption": "This one is just for you."
+  },
+  {
+    "src": "/rewards/keepsake-04.jpg",
+    "caption": "A little reminder of me."
+  },
+  {
+    "src": "/rewards/keepsake-05.jpg",
+    "caption": "Missing you, always."
+  },
+  {
+    "src": "/rewards/keepsake-06.jpg",
+    "caption": "This one is just for you."
+  },
+  {
+    "src": "/rewards/keepsake-07.jpg",
+    "caption": "A little reminder of me."
+  },
+  {
+    "src": "/rewards/keepsake-08.jpg",
+    "caption": "Missing you, always."
+  },
+  {
+    "src": "/rewards/keepsake-09.jpg",
+    "caption": "This one is just for you."
+  }
+]
