@@ -1,0 +1,177 @@
+{
+  "passed": 35,
+  "results": [
+    {
+      "name": "district expanded beyond old market",
+      "pass": true
+    },
+    {
+      "name": "market story conversation opens",
+      "pass": true
+    },
+    {
+      "name": "market lead advances to office",
+      "pass": true
+    },
+    {
+      "name": "office record marks cemetery",
+      "pass": true
+    },
+    {
+      "name": "cemetery parcel advances story",
+      "pass": true
+    },
+    {
+      "name": "story has reachable ending",
+      "pass": true
+    },
+    {
+      "name": "partial excavation lowers soil",
+      "pass": true
+    },
+    {
+      "name": "release preserves dig progress",
+      "pass": true
+    },
+    {
+      "name": "excavation opens grave",
+      "pass": true
+    },
+    {
+      "name": "climb enters grave",
+      "pass": true
+    },
+    {
+      "name": "cannot refill while inside",
+      "pass": true
+    },
+    {
+      "name": "climb returns safely to edge",
+      "pass": true
+    },
+    {
+      "name": "empty grave can be refilled",
+      "pass": true
+    },
+    {
+      "name": "body pickup",
+      "pass": true
+    },
+    {
+      "name": "cancel lowering restores body",
+      "pass": true
+    },
+    {
+      "name": "lowering leaves body visible in open grave",
+      "pass": true
+    },
+    {
+      "name": "cancel refill leaves body and open soil state",
+      "pass": true
+    },
+    {
+      "name": "refill completes burial",
+      "pass": true
+    },
+    {
+      "name": "exhumation clears occupant and restores one body",
+      "pass": true
+    },
+    {
+      "name": "attack wind-up has no early damage",
+      "pass": true
+    },
+    {
+      "name": "swept blade connects once",
+      "pass": true
+    },
+    {
+      "name": "second strike begins death",
+      "pass": true
+    },
+    {
+      "name": "fall finishes",
+      "pass": true
+    },
+    {
+      "name": "target behind player is not hit",
+      "pass": true
+    },
+    {
+      "name": "out of reach target is not hit",
+      "pass": true
+    },
+    {
+      "name": "hands stay on shovel grip",
+      "pass": true
+    },
+    {
+      "name": "sprint gives catch-up speed",
+      "pass": true
+    },
+    {
+      "name": "player can move during swing",
+      "pass": true
+    },
+    {
+      "name": "market to cemetery route exists",
+      "pass": true
+    },
+    {
+      "name": "map follows player position",
+      "pass": true
+    },
+    {
+      "name": "traffic moves on green",
+      "pass": true
+    },
+    {
+      "name": "traffic queues at red crossing",
+      "pass": true
+    },
+    {
+      "name": "audio context exists after begin input",
+      "pass": true
+    },
+    {
+      "name": "sound event reaches mixer",
+      "pass": true
+    },
+    {
+      "name": "mute silences master",
+      "pass": true
+    }
+  ],
+  "build": "0.4",
+  "additional_checks": {
+    "pursuit": {
+      "start_gap": 5,
+      "end_gap": 1.39998,
+      "landed_hit": true
+    },
+    "wall_rejects_hit": true,
+    "drag_grip_error": 3.628e-07,
+    "mobile_width": 390,
+    "mobile_height": 844,
+    "mobile_horizontal_overflow": false,
+    "mobile_prompt_clears_actions": true,
+    "min_mobile_action_height": 44,
+    "traffic_signals_red_and_green": true,
+    "browser_console_errors": 0
+  },
+  "limits": [
+    "Runtime functions and simulated time used for deterministic scenarios; not a full human-input playthrough.",
+    "No human listening-quality or physical-phone assessment.",
+    "Editor verification covers runtime initialization; the 35 gameplay checks used standalone engine 2.7.4."
+  ],
+  "editor_sync": {
+    "status": "synced",
+    "scene": 2659799,
+    "asset": 316697723,
+    "engine": "2.23.3",
+    "runtime_initialized": true,
+    "runtime_errors": 0,
+    "warning": "Editor-generated camera offscreen option is ignored",
+    "checkpoint": "25795383-8861-42b3-897c-abd8bc96cb73"
+  }
+}
