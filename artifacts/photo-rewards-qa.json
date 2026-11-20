@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-20",
+  "images": 9,
+  "formats": {
+    "jpeg": 8,
+    "gif": 1
+  },
+  "localChecks": {
+    "allImagesHTTP200": true,
+    "oneUnlockShowsOneImage": true,
+    "downloadButtonsForNineUnlocks": 9,
+    "fullSizeLinks": 9,
+    "downloadActionCompleted": true,
+    "giftFlowTestsPassed": 15
+  },
+  "editor": {
+    "scriptAsset": 316697723,
+    "parsed": true,
+    "checkpoint": "ed6a825e-0f38-4f00-ae34-ca221a7f0836",
+    "runtime": "Launch popup blocked"
+  },
+  "deploymentId": "dpl_A8A4RERAvW1QBJUG3PR8pBsjNRZW"
+}
